@@ -2,7 +2,6 @@
 
 Repository ini dibuat untuk memenuhi tugas **Mini Project Mata Kuliah Struktur Data Bioinformatika (BIF1223)** - IPB University.
 
-**Anggota Kelompok/Individu:**
 * Nama: Raihan Arionanda Nasution
 * NIM: G0401241033
 * Departemen: Bioinformatika
