@@ -1,4 +1,4 @@
-#  Pipeline Analisis Sekuens DNA 16S rRNA: Karakterisasi Genomik Bakteri Agen Bioremediasi
+# Pipeline Analisis Sekuens DNA 16S rRNA: Karakterisasi Genomik Bakteri Agen Bioremediasi
 
 Repository ini dibuat untuk memenuhi tugas **Mini Project Mata Kuliah Struktur Data Bioinformatika (BIF1223)** - IPB University.
 
@@ -8,7 +8,7 @@ Repository ini dibuat untuk memenuhi tugas **Mini Project Mata Kuliah Struktur D
 
 ---
 
-##  Latar Belakang & Topik Analisis
+## Latar Belakang & Topik Analisis
 Projek ini melakukan analisis komparatif terhadap sekuens **16S rRNA gene (partial sequence)** dari **5 bakteri agen bioremediasi** yang diunduh langsung dari database NCBI untuk mengevaluasi stabilitas termal genom (*GC Content*) serta dimensi fisik materi genetiknya (*Berat Molekul*):
 1. **Ideonella sakaiensis** (Kemampuan mendegradasi plastik PET)
 2. **Pseudomonas putida** (Kemostasis polutan organik/hidrokarbon)
@@ -18,7 +18,7 @@ Projek ini melakukan analisis komparatif terhadap sekuens **16S rRNA gene (parti
 
 ---
 
-## 🛠️ Implementasi Struktur Data (Pipeline Flow)
+## Implementasi Struktur Data (Pipeline Flow)
 Sesuai ketentuan, program Python (`main.py`) dibangun menggunakan struktur data dasar mandiri:
 * **List:** Pipeline utama untuk menampung seluruh objek sekuens dari kelima berkas FASTA.
 * **Dictionary:** Memproses hitung frekuensi individual nukleotida (A, T, G, C) secara efisien.
@@ -51,7 +51,7 @@ Hasil visualisasi hubungan grafik batang kontras tinggi antara persentase *GC Co
 
 ---
 
-##  Cara Menjalankan Program
+## Cara Menjalankan Program
 1. Pastikan dependensi telah terinstal:
    ```bash
    pip install pandas matplotlib
